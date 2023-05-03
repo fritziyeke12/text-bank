@@ -11,5 +11,7 @@ public class Bank {
         System.out.println("(4): Modify Account Balance");
         System.out.println("(5): Summary of All Accounts");
         System.out.println("(-1): Quit");
+
+        Scanner input = new Scanner(System.in);
     }
 }
